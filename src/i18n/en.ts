@@ -386,7 +386,7 @@ export const en = {
       headline: "Strength training – my discipline system.",
       summary: "Regular training teaches me to work steadily: show up every day, raise the load step by step and finish what I start.",
       principles: ["Consistency", "Gradual progress", "Finishing what I start"],
-      heatmapNote: "Mon · Tue · Fri – no skips",
+      heatmapNote: "Mon · Wed · Fri – no skips",
     },
     education: {
       eyebrow: "Education",
