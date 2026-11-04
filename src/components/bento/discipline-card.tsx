@@ -8,12 +8,12 @@ import { useLocale } from "@/i18n/locale-provider";
 const WEEKS = 14;
 const DAYS = 7;
 
-// Decorative consistency grid (deterministic, not real tracking data).
+// Decorative consistency grid: Mon / Tue / Fri filled every week, no gaps.
+ // Rows are Mon→Sun (Ukraine week start). Level 3 = trained that day.
+const TRAINING_DAYS = new Set([0, 1, 4]); // Mon, Tue, Fri
 const cells = Array.from({ length: WEEKS * DAYS }, (_, i) => {
-  const col = Math.floor(i / DAYS);
   const day = i % DAYS;
-  const score = (col * 5 + day * 3 + ((col * day) % 4)) % 7;
-  return score === 0 || score === 4 ? 0 : score < 3 ? 1 : score < 5 ? 2 : 3;
+  return TRAINING_DAYS.has(day) ? 3 : 0;
 });
 
 const LEVELS = [
