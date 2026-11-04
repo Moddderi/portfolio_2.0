@@ -75,7 +75,7 @@ export const en = {
 
   manifesto: {
     label: "Manifesto",
-    text: "I don't just write code. I study how work *flows*, find the single *constraint* holding a system back, and remove it – *process first*, software second. That's how a department of *eight* became *two* – while the output went *up*.",
+    text: "I don't just write code. I analyse how a product or service is made. I study how work *flows*, find waste, losses and *constraints* that slow the system down and burn resources *without creating value* for the client. Then I build or improve the software that *optimises* the process. That's how a department of *eight* became *two* – and the output went *up*.",
   },
 
   experience: {
@@ -359,16 +359,17 @@ export const en = {
       eyebrow: "Library",
       read: "books read",
       aria: "A shelf of 80 books",
-      summary: "Systems thinking, business strategy and philosophy – the mental models behind how I work.",
+      summary: "Systems thinking, economics, business and philosophy – the mental models behind how I work.",
       radarTitle: "Directions I grow in",
       radar: ["Development", "Business", "Optimization", "Self-development", "Philosophy", "Discipline"],
       list: [
         { title: "The Richest Man in Babylon", author: "George S. Clason" },
-        { title: "Cashflow Quadrant", author: "Robert Kiyosaki" },
         { title: "Rich Dad Poor Dad", author: "Robert Kiyosaki" },
-        { title: "Reality Transurfing", author: "Vadim Zeland" },
+        { title: "Cashflow Quadrant", author: "Robert Kiyosaki" },
         { title: "The Goal (3 parts)", author: "Eliyahu M. Goldratt" },
+        { title: "Say It with Charts", author: "Gene Zelazny" },
         { title: "The Toyota Way", author: "Jeffrey K. Liker" },
+        { title: "Economics Textbook (Austria · Germany)", author: "—" },
         { title: "Stoic Philosophy", author: "Marcus Aurelius" },
       ],
       more: "…and many more",
