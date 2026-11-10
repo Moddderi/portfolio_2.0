@@ -11,7 +11,10 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 const description =
   "Full-Stack Engineer focused on process optimization. I cut a department from 8 people to 2 with Lean, Theory of Constraints and code. Founder of SyntaxAI.";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://olehkyrych.xyz";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: { default: `${profile.name} — Full-Stack Engineer · Process Optimization`, template: `%s · ${profile.name}` },
   description,
   openGraph: {
